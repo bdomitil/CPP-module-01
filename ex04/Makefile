@@ -1,8 +1,8 @@
-files.c = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+files.c = main.cpp
 
 CFLAGS = -Wall -Wextra -Werror
 
-NAME = human_weapon
+NAME = sed
 
 all : $(NAME)
 
