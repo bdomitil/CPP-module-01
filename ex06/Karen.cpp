@@ -46,17 +46,17 @@ void Karen :: complain(string level)
 	int log = check_level(level);
 	switch (log)  
  	{
+		 case 0 :
+		 {
+			 (this->*foos[log])();
+			 log++;
+		 }
 		 case 1 :
 		 {
 			 (this->*foos[log])();
 			 log++;
 		 }
-		 case 2 :
-		 {
-			 (this->*foos[log])();
-			 break;
-		 }
-		 case 0  :
+		 case 2  :
 		 {
 		 	(this->*foos[log])();
 			log++;
